@@ -14,6 +14,13 @@
 		69E632CD1A0D6D3E00755B73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E632CC1A0D6D3E00755B73 /* Images.xcassets */; };
 		69E632D01A0D6D3E00755B73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69E632CE1A0D6D3E00755B73 /* LaunchScreen.xib */; };
 		69E632DC1A0D6D3F00755B73 /* dropBoxAssignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E632DB1A0D6D3F00755B73 /* dropBoxAssignTests.m */; };
+		69E632E61A0D6D5000755B73 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632E51A0D6D5000755B73 /* DropboxSDK.framework */; };
+		69E632E81A0D6E7500755B73 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632E71A0D6E7500755B73 /* CFNetwork.framework */; };
+		69E632EA1A0D6E7C00755B73 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632E91A0D6E7C00755B73 /* Security.framework */; };
+		69E632EC1A0D6E8900755B73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632EB1A0D6E8900755B73 /* SystemConfiguration.framework */; };
+		69E632EE1A0D6E9000755B73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632ED1A0D6E9000755B73 /* QuartzCore.framework */; };
+		69E632F01A0D6EB300755B73 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632EF1A0D6EB300755B73 /* libc++.dylib */; };
+		69E632F21A0D6ED000755B73 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E632F11A0D6ED000755B73 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		69E632D51A0D6D3F00755B73 /* dropBoxAssignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropBoxAssignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E632DA1A0D6D3F00755B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E632DB1A0D6D3F00755B73 /* dropBoxAssignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dropBoxAssignTests.m; sourceTree = "<group>"; };
+		69E632E51A0D6D5000755B73 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		69E632E71A0D6E7500755B73 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		69E632E91A0D6E7C00755B73 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		69E632EB1A0D6E8900755B73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		69E632ED1A0D6E9000755B73 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		69E632EF1A0D6EB300755B73 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		69E632F11A0D6ED000755B73 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E632F21A0D6ED000755B73 /* libz.dylib in Frameworks */,
+				69E632F01A0D6EB300755B73 /* libc++.dylib in Frameworks */,
+				69E632EE1A0D6E9000755B73 /* QuartzCore.framework in Frameworks */,
+				69E632EC1A0D6E8900755B73 /* SystemConfiguration.framework in Frameworks */,
+				69E632EA1A0D6E7C00755B73 /* Security.framework in Frameworks */,
+				69E632E81A0D6E7500755B73 /* CFNetwork.framework in Frameworks */,
+				69E632E61A0D6D5000755B73 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,13 @@
 		69E632B31A0D6D3E00755B73 = {
 			isa = PBXGroup;
 			children = (
+				69E632F11A0D6ED000755B73 /* libz.dylib */,
+				69E632EF1A0D6EB300755B73 /* libc++.dylib */,
+				69E632ED1A0D6E9000755B73 /* QuartzCore.framework */,
+				69E632EB1A0D6E8900755B73 /* SystemConfiguration.framework */,
+				69E632E91A0D6E7C00755B73 /* Security.framework */,
+				69E632E71A0D6E7500755B73 /* CFNetwork.framework */,
+				69E632E51A0D6D5000755B73 /* DropboxSDK.framework */,
 				69E632BE1A0D6D3E00755B73 /* dropBoxAssign */,
 				69E632D81A0D6D3F00755B73 /* dropBoxAssignTests */,
 				69E632BD1A0D6D3E00755B73 /* Products */,
@@ -343,6 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dropBoxAssign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +385,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = dropBoxAssign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

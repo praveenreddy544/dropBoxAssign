@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DropboxSDK/DropboxSDK.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<DBRestClientDelegate,UITableViewDataSource,UITableViewDelegate>
+{
+   NSMutableArray *dropBoxDataURLS;
+}
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) DBRestClient *restClient;
+- (IBAction)alertbutton:(id)sender;
 
 @end
 
